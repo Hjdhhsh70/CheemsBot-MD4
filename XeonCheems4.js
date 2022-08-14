@@ -8971,7 +8971,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "قائمه الشكر ❤️",
-										"description": "يعرض قائمة صناع البوت !!",
+										"description": "يعرض قائمة صانع البوت !!",
 										"rowId": `${prefix}tqtt`
 									}
 								]
@@ -10588,7 +10588,23 @@ break
 case 'tqtt': 
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
-reply(`شكرا لنفسي السلطان طبعا 😂❤️`)
+reply(`صانع البوت : يوسف السلطان  
+ 
+لينك مطور البوت : https://api.whatsapp.com/send?phone=+201288455338
+ 
+لو عايز تتبرع عشان استخدام البوت يبقا اكتر كل ال عليك هتشترك في القناه بتاعت اليوتيوب اللينك اهو 👇🏻 
+ 
+https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA  
+ 
+ 
+ودا لينك الجروب👇🏻  
+ 
+https://chat.whatsapp.com/E3ZXaynqIStHBJdpyNlTxb  
+ 
+ 
+ودا الانستا : 1y._.o2@  
+ 
+ولو عايز اي استفسار او فيه اي خطا كلم مطور البوت علي الفور وشكرا. ️`)
 break
             default:
                 if (budy.startsWith('=>')) {
