@@ -3534,7 +3534,7 @@ reply(`إرسال صورة / فيديو مع شرح ${prefix + command}\nVideo D
 }
 }
 break
-case 'سسررققهه': case 'حقوق': case 'سرقه حقوق': {
+case 'swm': case 'س ـرقههه': case 'stickerwm': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!args.join(" ")) return reply(`Example :\nswm ${global.author}|${global.packname}`)
@@ -8747,10 +8747,10 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
-case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'سكربت': case 'sourcecode': {
+case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-teks = `*「 ${global.botname} Script 」*\n\nيوتيوب: ${global.websitex}\nجروب الواتساب: ${global.botscript}\n\لينك الجروب`
+teks = `*「 ${global.botname} Script 」*\n\nيوتيوب: ${global.websitex}\nجيت هيب: ${global.botscript}\n\nلا تنسى التبرع 🍜`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'القائمه 🌺'}, type: 1}
 ]
@@ -8832,7 +8832,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `هاي ${pushname}`,
-                    description: `يرجي الاختيار من القائمه💎\n\n`,
+                    description: `اختار من القائمه💕\n\n`,
                     buttonText: "Menu",
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
@@ -10599,7 +10599,7 @@ https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA
  
 ودا لينك الجروب👇🏻  
  
-https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8  
+https://chat.whatsapp.com/E3ZXaynqIStHBJdpyNlTxb  
  
  
 ودا الانستا : 1y._.o2@  
